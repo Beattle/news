@@ -15,7 +15,7 @@ enterprise утилиты типа percona toolkit для php можно исп�
 
  CREATE TABLE `news_post` (
      `id` int UNSIGNED NOT NULL,
-     `status` bit(3) NOT NULL, // битовое значения для статуса
+     `status` bit(3) NOT NULL,
      `title` varchar(128) COLLATE utf8mb4_unicode_ci NOT NULL,
      `publish_date` date NOT NULL
      ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
